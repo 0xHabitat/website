@@ -26,7 +26,7 @@ const Newsletter = ({
         <NewsletterWrapper>
           <Box {...textArea}>
             <Heading
-              content="INTERESTED IN THE FUTURE OF OGRANISATIONS ?"
+              content="INTERESTED IN THE FUTURE OF ORGANISATIONS ?"
               {...title}
             />
             <Text
@@ -35,7 +35,7 @@ const Newsletter = ({
             />
           </Box>
           <Box {...buttonArea}>
-            <ExternalLink href="https://calendly.com/deora-earth/teal-garden">
+            <ExternalLink href="https://calendly.com/deora-earth/intro">
               <Button
                 {...btnStyle}
                 {...btnStyleTwo}

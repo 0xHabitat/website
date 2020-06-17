@@ -1,7 +1,6 @@
 import React, { Fragment } from 'react';
 import PropTypes from 'prop-types';
 import Box from 'common/src/components/Box';
-import Text from 'common/src/components/Text';
 import Heading from 'common/src/components/Heading';
 import Button from 'common/src/components/Button';
 import FeatureBlock from 'common/src/components/FeatureBlock';
@@ -19,8 +18,8 @@ const BannerSection = ({
 }) => {
   const ButtonGroup = () => (
     <Fragment>
-      <ExternalLink href="https://calendly.com/deora-earth/teal-garden">
-        <Button title="JOIN US" {...btnStyle} />
+      <ExternalLink href="https://calendly.com/deora_earth/intro">
+        <Button title="Meet us" {...btnStyle} />
       </ExternalLink>
     </Fragment>
   );
@@ -33,14 +32,8 @@ const BannerSection = ({
             <FeatureBlock
               title={
                 <Heading
-                  content="WE BUILD ORGANISATION TECH FOR THE FUTURE OF COLLABORATION"
+                  content="We are explorers and builders for the future of collaboration."
                   {...title}
-                />
-              }
-              description={
-                <Text
-                  content="Decentralised Organisation Architectures: Organisations as living system with strong adaptive capabilities in an evermore complex world."
-                  {...description}
                 />
               }
               button={<ButtonGroup />}

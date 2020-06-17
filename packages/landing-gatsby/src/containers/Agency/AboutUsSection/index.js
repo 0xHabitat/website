@@ -22,7 +22,7 @@ const AboutUsSection = ({
   const Data = useStaticQuery(graphql`
     query {
       image1: file(
-        relativePath: { eq: "image/agency/group/group-image1.jpg" }
+        relativePath: { eq: "image/agency/group/group-image1.png" }
       ) {
         childImageSharp {
           fluid(maxWidth: 505, quality: 100) {

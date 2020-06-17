@@ -42,11 +42,11 @@ const BlogSection = ({
     <BlogSectionWrapper id="blogSection">
       <Container>
         <Box {...sectionHeader}>
-          <Text content="We test and iterate web 3.0 org concepts" {...sectionSubTitle} />
-          <Heading
-            content="Explore Our Organisation Tech"
-            {...sectionTitle}
+          <Text
+            content="We test and iterate web 3.0 org concepts"
+            {...sectionSubTitle}
           />
+          <Heading content="Explore Our Organisation Tech" {...sectionTitle} />
         </Box>
         <Box className="row" {...row}>
           {Data.agencyJson.blog.map((post, index) => (
@@ -67,7 +67,7 @@ const BlogSection = ({
                 />
               }
               title={
-                <Link href={post.postLink} {...blogTitle}>
+                <Link href={post.postLink} target="_blank" {...blogTitle}>
                   {post.title}
                 </Link>
               }

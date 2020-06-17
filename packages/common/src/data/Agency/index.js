@@ -1,5 +1,5 @@
 import BlogImage1 from '../../assets/image/agency/blog/blog-img1.png';
-import BlogImage2 from '../../assets/image/agency/blog/blog-img2.png';
+import BlogImage2 from '../../assets/image/agency/blog/blog-img2.jpg';
 import BlogImage3 from '../../assets/image/agency/blog/blog-img3.png';
 import Member1 from '../../assets/image/agency/team/member-1.jpg';
 import Member2 from '../../assets/image/agency/team/member-2.jpg';

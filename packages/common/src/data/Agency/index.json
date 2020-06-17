@@ -89,15 +89,22 @@
       "id": 1,
       "title": "Teal.Garden",
       "thumbnail_url": "../../assets/image/agency/blog/blog-img1.png",
-      "date": "Discover processes and tools for self-managed and distributed teams",
-      "postLink": "#1"
+      "date": "Discover processes and tools for self-managed and distributed teams.",
+      "postLink": "https://tealgarden.deora.earth/about/"
+    },
+    {
+      "id": 2,
+      "title": "VotingApp",
+      "thumbnail_url": "../../assets/image/agency/blog/blog-img2.jpg",
+      "date": "Quadratic Voting App on the Ethereum Blockchain for Volt Germany.",
+      "postLink": "https://vote.ethturin.com/"
     },
     {
       "id": 3,
-      "title": "VotingApp",
+      "title": "Rosebud DAO",
       "thumbnail_url": "../../assets/image/agency/blog/blog-img3.png",
-      "date": "Quadratic Voting App on the Ethereum Blockchain for Volt Germany ",
-      "postLink": "#3"
+      "date": "DAO for the film industry.",
+      "postLink": "https://rosebud.fund/"
     }
   ],
   "teamMember": [
