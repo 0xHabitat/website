@@ -1,5 +1,8 @@
 .cache
 
+packages/landing-gatsby/public/
+packages/landing-gatsby/public/**
+
 ### macOS ###
 # General
 .DS_Store
