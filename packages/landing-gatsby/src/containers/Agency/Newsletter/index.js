@@ -35,7 +35,7 @@ const Newsletter = ({
             />
           </Box>
           <Box {...buttonArea}>
-            <ExternalLink href="https://calendly.com/deora-earth/intro">
+            <ExternalLink href="https://calendly.com/deora_earth/intro">
               <Button
                 {...btnStyle}
                 {...btnStyleTwo}
